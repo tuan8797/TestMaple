@@ -1,0 +1,16 @@
+{
+	"extends": "@tsconfig/react-native/tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@app-views": ["./src/views"],
+			"@app-views/*": ["./src/views/*"],
+			"@app-navigation": ["./src/navigation"],
+			"@app-navigation/*": ["./src/navigation/*"],
+			"@app-assets": ["./src/assets"],
+			"@app-assets/*": ["./src/assets/*"],
+			"@app-uikits": ["./src/uikits"],
+			"@app-uikits/*": ["./src/uikits/*"]
+		}
+	}
+}
